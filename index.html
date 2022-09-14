@@ -14,11 +14,10 @@
     <div class="container">
         <header><h2>Make the String Crypted</h2></header>
         <div class="input">
-            
             <div class="input-group-lg">
                 <span class="input-group-text">String and Key for Encryption</span>
-                <input type="text" aria-label="First name" class="form-control" id="string" placeholder="Enter String Here" required>
-                <input type="number" min = 3 aria-label="Last name" class="form-control" id="key" placeholder="Key" required>
+                <input type="text" aria-label="First name" class="form-control" id="string" placeholder="Enter String Here" required autocomplete="off">
+                <input type="number" min = 3 aria-label="Last name" class="form-control" id="key" placeholder="Key" required autocomplete="off">
               </div>
             <div class="crypt-buttons">
                 <button class="btn btn-lg btn-outline-primary" type="button" id="encrypt" onclick="encrypt()">Encrypt</button>
