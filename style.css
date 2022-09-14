@@ -2,6 +2,9 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
+    background-color: #e2e7fb;
+    box-shadow: inset 0 0 0 1000px rgba(226, 231, 251, 0.3);
+    background: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=900&t=st=1663152318~exp=1663152918~hmac=ae66134498b13b0fe8f0f192c6fd038fd4c78c46e976333e8ab2b3018ba44b6f");
 }
 .container{
     height: 100%;
